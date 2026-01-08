@@ -7,7 +7,7 @@ public class RuleRepository {
     private final Map<PassportCountry, Map<Country, List<Visa>>> rules;
 
     public RuleRepository(Map<PassportCountry, Map<Country, List<Visa>>> rules) {
-        this.rules = Collections.unmodifiableMap(rules);
+        this.rules = rules;
     }
 
     public Map<PassportCountry, Map<Country, List<Visa>>> getRules() {
