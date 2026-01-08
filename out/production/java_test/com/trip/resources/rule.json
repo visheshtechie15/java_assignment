@@ -1,0 +1,1155 @@
+{
+  "rules": [
+    {
+      "ruleId": "R1",
+      "destinationCountry": "GERMANY",
+      "passportCountry": "INDIA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": 
+      {
+        "maxDays": 90
+      },
+      "decision": 
+      {
+        "visaRequired": true,
+        "visaType": "SCHENGEN_TOURIST",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "TRAVEL_INSURANCE"
+        ],
+        "processingDays": 15,
+        "warnings": [
+          "Maximum stay is 90 days"
+        ]
+      }
+    },
+    {
+      "ruleId": "R2",
+      "destinationCountry": "GERMANY",
+      "passportCountry": "USA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": false,
+        "visaType": "NONE",
+        "requiredDocuments": [
+          "PASSPORT"
+        ],
+        "processingDays": 0
+      }
+    },
+    {
+      "ruleId": "R3",
+      "destinationCountry": "FRANCE",
+      "passportCountry": "INDIA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "SCHENGEN_TOURIST",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "TRAVEL_INSURANCE",
+          "ACCOMMODATION_PROOF"
+        ],
+        "processingDays": 14,
+        "warnings": [
+          "Ensure travel insurance covers medical expenses"
+        ]
+      }
+    },
+    {
+      "ruleId": "R4",
+      "destinationCountry": "UK",
+      "passportCountry": "INDIA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 180
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "STANDARD_VISITOR",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "RETURN_TICKET",
+          "ACCOMMODATION_PROOF"
+        ],
+        "processingDays": 20,
+        "warnings": [
+          "Maximum stay is 180 days",
+          "No work permitted"
+        ]
+      }
+    },
+    {
+      "ruleId": "R5",
+      "destinationCountry": "CANADA",
+      "passportCountry": "USA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 180
+      },
+      "decision": {
+        "visaRequired": false,
+        "visaType": "NONE",
+        "requiredDocuments": [
+          "PASSPORT",
+          "RETURN_TICKET"
+        ],
+        "processingDays": 0
+      }
+    },
+    {
+      "ruleId": "R6",
+      "destinationCountry": "JAPAN",
+      "passportCountry": "INDIA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "TEMPORARY_VISITOR",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "APPLICATION_FORM",
+          "BANK_STATEMENT",
+          "EMPLOYMENT_LETTER"
+        ],
+        "processingDays": 10,
+        "warnings": [
+          "Application must be submitted at Japanese embassy"
+        ]
+      }
+    },
+    {
+      "ruleId": "R7",
+      "destinationCountry": "AUSTRALIA",
+      "passportCountry": "USA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "ELECTRONIC_TRAVEL_AUTHORITY",
+        "requiredDocuments": [
+          "PASSPORT",
+          "EMAIL_ADDRESS",
+          "CREDIT_CARD"
+        ],
+        "processingDays": 1,
+        "warnings": [
+          "ETA valid for 12 months"
+        ]
+      }
+    },
+    {
+      "ruleId": "R8",
+      "destinationCountry": "SINGAPORE",
+      "passportCountry": "INDIA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "VISIT_PASS",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "RETURN_TICKET",
+          "HOTEL_BOOKING"
+        ],
+        "processingDays": 5,
+        "warnings": [
+          "Approval depends on immigration discretion"
+        ]
+      }
+    },
+    {
+      "ruleId": "R9",
+      "destinationCountry": "THAILAND",
+      "passportCountry": "USA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 30
+      },
+      "decision": {
+        "visaRequired": false,
+        "visaType": "VISA_EXEMPT",
+        "requiredDocuments": [
+          "PASSPORT",
+          "RETURN_TICKET"
+        ],
+        "processingDays": 0,
+        "warnings": [
+          "Maximum stay is 30 days",
+          "Valid passport required"
+        ]
+      }
+    },
+    {
+      "ruleId": "R10",
+      "destinationCountry": "DUBAI",
+      "passportCountry": "INDIA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 30
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "TOURIST",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "HOTEL_BOOKING"
+        ],
+        "processingDays": 2,
+        "warnings": [
+          "Visa valid for 30 days from issuance"
+        ]
+      }
+    },
+    {
+      "ruleId": "R11",
+      "destinationCountry": "SPAIN",
+      "passportCountry": "INDIA",
+      "travelPurpose": "BUSINESS",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "SCHENGEN_BUSINESS",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "BUSINESS_LETTER",
+          "COMPANY_REGISTRATION"
+        ],
+        "processingDays": 18,
+        "warnings": [
+          "Company invitation letter required",
+          "Maximum stay is 90 days"
+        ]
+      }
+    },
+    {
+      "ruleId": "R12",
+      "destinationCountry": "IRELAND",
+      "passportCountry": "USA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": false,
+        "visaType": "NONE",
+        "requiredDocuments": [
+          "PASSPORT"
+        ],
+        "processingDays": 0
+      }
+    },
+    {
+      "ruleId": "R13",
+      "destinationCountry": "NEW_ZEALAND",
+      "passportCountry": "INDIA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "VISITOR",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "APPLICATION_FORM",
+          "BANK_STATEMENT",
+          "RETURN_TICKET"
+        ],
+        "processingDays": 12,
+        "warnings": [
+          "Online application available"
+        ]
+      }
+    },
+    {
+      "ruleId": "R14",
+      "destinationCountry": "ITALY",
+      "passportCountry": "USA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": false,
+        "visaType": "NONE",
+        "requiredDocuments": [
+          "PASSPORT"
+        ],
+        "processingDays": 0,
+        "warnings": [
+          "Valid for Schengen area"
+        ]
+      }
+    },
+    {
+      "ruleId": "R15",
+      "destinationCountry": "SOUTH_KOREA",
+      "passportCountry": "INDIA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "TOURIST",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "APPLICATION_FORM",
+          "BANK_STATEMENT"
+        ],
+        "processingDays": 7,
+        "warnings": [
+          "Visa on arrival not available"
+        ]
+      }
+    },
+    {
+      "ruleId": "R16",
+      "destinationCountry": "SWITZERLAND",
+      "passportCountry": "INDIA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "SCHENGEN_TOURIST",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "TRAVEL_INSURANCE",
+          "ACCOMMODATION_PROOF"
+        ],
+        "processingDays": 16,
+        "warnings": [
+          "High cost of living",
+          "Travel insurance mandatory"
+        ]
+      }
+    },
+    {
+      "ruleId": "R17",
+      "destinationCountry": "MEXICO",
+      "passportCountry": "USA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 180
+      },
+      "decision": {
+        "visaRequired": false,
+        "visaType": "NONE",
+        "requiredDocuments": [
+          "PASSPORT",
+          "RETURN_TICKET"
+        ],
+        "processingDays": 0
+      }
+    },
+    {
+      "ruleId": "R18",
+      "destinationCountry": "SINGAPORE",
+      "passportCountry": "USA",
+      "travelPurpose": "BUSINESS",
+      "stayDuration": {
+        "maxDays": 30
+      },
+      "decision": {
+        "visaRequired": false,
+        "visaType": "NONE",
+        "requiredDocuments": [
+          "PASSPORT",
+          "BUSINESS_LETTER"
+        ],
+        "processingDays": 0
+      }
+    },
+    {
+      "ruleId": "R19",
+      "destinationCountry": "NETHERLANDS",
+      "passportCountry": "INDIA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "SCHENGEN_TOURIST",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "TRAVEL_INSURANCE"
+        ],
+        "processingDays": 14,
+        "warnings": [
+          "Apply at nearest Schengen embassy"
+        ]
+      }
+    },
+    {
+      "ruleId": "R20",
+      "destinationCountry": "MALAYSIA",
+      "passportCountry": "INDIA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "VISIT_PASS",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "RETURN_TICKET"
+        ],
+        "processingDays": 3,
+        "warnings": [
+          "Visa on arrival available"
+        ]
+      }
+    },
+    {
+      "ruleId": "R21",
+      "destinationCountry": "GERMANY",
+      "passportCountry": "CHINA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "SCHENGEN_TOURIST",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "TRAVEL_INSURANCE",
+          "EMPLOYMENT_LETTER"
+        ],
+        "processingDays": 20,
+        "warnings": [
+          "Additional documentation may be required"
+        ]
+      }
+    },
+    {
+      "ruleId": "R22",
+      "destinationCountry": "JAPAN",
+      "passportCountry": "CHINA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "TEMPORARY_VISITOR",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "APPLICATION_FORM",
+          "BANK_STATEMENT"
+        ],
+        "processingDays": 8,
+        "warnings": [
+          "Apply at Japanese embassy"
+        ]
+      }
+    },
+    {
+      "ruleId": "R23",
+      "destinationCountry": "AUSTRALIA",
+      "passportCountry": "CHINA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "VISITOR",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "EMPLOYMENT_LETTER",
+          "RETURN_TICKET"
+        ],
+        "processingDays": 15,
+        "warnings": [
+          "Online application available"
+        ]
+      }
+    },
+    {
+      "ruleId": "R24",
+      "destinationCountry": "CANADA",
+      "passportCountry": "INDIA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 180
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "TEMPORARY_RESIDENT",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "EMPLOYMENT_LETTER",
+          "RETURN_TICKET"
+        ],
+        "processingDays": 25,
+        "warnings": [
+          "Biometric data collection required"
+        ]
+      }
+    },
+    {
+      "ruleId": "R25",
+      "destinationCountry": "UK",
+      "passportCountry": "USA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 180
+      },
+      "decision": {
+        "visaRequired": false,
+        "visaType": "NONE",
+        "requiredDocuments": [
+          "PASSPORT",
+          "RETURN_TICKET"
+        ],
+        "processingDays": 0
+      }
+    },
+    {
+      "ruleId": "R26",
+      "destinationCountry": "FRANCE",
+      "passportCountry": "BRAZIL",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "SCHENGEN_TOURIST",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "TRAVEL_INSURANCE"
+        ],
+        "processingDays": 14,
+        "warnings": [
+          "Maximum stay is 90 days"
+        ]
+      }
+    },
+    {
+      "ruleId": "R27",
+      "destinationCountry": "JAPAN",
+      "passportCountry": "BRAZIL",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": false,
+        "visaType": "VISA_EXEMPT",
+        "requiredDocuments": [
+          "PASSPORT",
+          "RETURN_TICKET"
+        ],
+        "processingDays": 0,
+        "warnings": [
+          "Maximum stay is 90 days"
+        ]
+      }
+    },
+    {
+      "ruleId": "R28",
+      "destinationCountry": "DUBAI",
+      "passportCountry": "USA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 30
+      },
+      "decision": {
+        "visaRequired": false,
+        "visaType": "VISA_ON_ARRIVAL",
+        "requiredDocuments": [
+          "PASSPORT",
+          "RETURN_TICKET"
+        ],
+        "processingDays": 0,
+        "warnings": [
+          "Visa on arrival available"
+        ]
+      }
+    },
+    {
+      "ruleId": "R29",
+      "destinationCountry": "SINGAPORE",
+      "passportCountry": "JAPAN",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": false,
+        "visaType": "NONE",
+        "requiredDocuments": [
+          "PASSPORT",
+          "RETURN_TICKET"
+        ],
+        "processingDays": 0
+      }
+    },
+    {
+      "ruleId": "R30",
+      "destinationCountry": "THAILAND",
+      "passportCountry": "CHINA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 30
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "TOURIST",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "RETURN_TICKET"
+        ],
+        "processingDays": 3,
+        "warnings": [
+          "Visa on arrival available"
+        ]
+      }
+    },
+    {
+      "ruleId": "R31",
+      "destinationCountry": "AUSTRALIA",
+      "passportCountry": "JAPAN",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "ELECTRONIC_TRAVEL_AUTHORITY",
+        "requiredDocuments": [
+          "PASSPORT",
+          "EMAIL_ADDRESS"
+        ],
+        "processingDays": 1,
+        "warnings": [
+          "ETA valid for 12 months"
+        ]
+      }
+    },
+    {
+      "ruleId": "R32",
+      "destinationCountry": "UK",
+      "passportCountry": "CANADA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 180
+      },
+      "decision": {
+        "visaRequired": false,
+        "visaType": "NONE",
+        "requiredDocuments": [
+          "PASSPORT"
+        ],
+        "processingDays": 0
+      }
+    },
+    {
+      "ruleId": "R33",
+      "destinationCountry": "FRANCE",
+      "passportCountry": "JAPAN",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": false,
+        "visaType": "NONE",
+        "requiredDocuments": [
+          "PASSPORT"
+        ],
+        "processingDays": 0,
+        "warnings": [
+          "Valid for Schengen area"
+        ]
+      }
+    },
+    {
+      "ruleId": "R34",
+      "destinationCountry": "GERMANY",
+      "passportCountry": "BRAZIL",
+      "travelPurpose": "BUSINESS",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "SCHENGEN_BUSINESS",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "BUSINESS_LETTER",
+          "COMPANY_REGISTRATION"
+        ],
+        "processingDays": 18,
+        "warnings": [
+          "Company letter required"
+        ]
+      }
+    },
+    {
+      "ruleId": "R35",
+      "destinationCountry": "CANADA",
+      "passportCountry": "CHINA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 180
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "VISITOR",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "EMPLOYMENT_LETTER",
+          "RETURN_TICKET",
+          "ACCOMMODATION_PROOF"
+        ],
+        "processingDays": 30,
+        "warnings": [
+          "Biometric data collection required",
+          "May require interview"
+        ]
+      }
+    },
+    {
+      "ruleId": "R36",
+      "destinationCountry": "MEXICO",
+      "passportCountry": "CHINA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 180
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "TOURIST",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "RETURN_TICKET"
+        ],
+        "processingDays": 10,
+        "warnings": [
+          "Tourist card provided on arrival"
+        ]
+      }
+    },
+    {
+      "ruleId": "R37",
+      "destinationCountry": "SPAIN",
+      "passportCountry": "BRAZIL",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "SCHENGEN_TOURIST",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "TRAVEL_INSURANCE"
+        ],
+        "processingDays": 15,
+        "warnings": [
+          "Maximum stay is 90 days"
+        ]
+      }
+    },
+    {
+      "ruleId": "R38",
+      "destinationCountry": "NEW_ZEALAND",
+      "passportCountry": "USA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": false,
+        "visaType": "ELECTRONIC_TRAVEL_AUTHORITY",
+        "requiredDocuments": [
+          "PASSPORT"
+        ],
+        "processingDays": 1,
+        "warnings": [
+          "ETA valid for 2 years"
+        ]
+      }
+    },
+    {
+      "ruleId": "R39",
+      "destinationCountry": "SOUTH_KOREA",
+      "passportCountry": "USA",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": false,
+        "visaType": "NONE",
+        "requiredDocuments": [
+          "PASSPORT",
+          "RETURN_TICKET"
+        ],
+        "processingDays": 0
+      }
+    },
+    {
+      "ruleId": "R40",
+      "destinationCountry": "SINGAPORE",
+      "passportCountry": "BRAZIL",
+      "travelPurpose": "TOURISM",
+      "stayDuration": {
+        "maxDays": 90
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "VISIT_PASS",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "BANK_STATEMENT",
+          "RETURN_TICKET"
+        ],
+        "processingDays": 5,
+        "warnings": [
+          "Approval depends on immigration discretion"
+        ]
+      }
+    },
+    {
+      "ruleId": "R41",
+      "destinationCountry": "USA",
+      "passportCountry": "INDIA",
+      "travelPurpose": "STUDENT",
+      "stayDuration": {
+        "maxDays": 1825
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "F1_STUDENT",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "I20_FORM",
+          "SEVIS_FEE_RECEIPT",
+          "FINANCIAL_PROOF",
+          "ACADEMIC_TRANSCRIPTS",
+          "ENGLISH_PROFICIENCY_TEST"
+        ],
+        "processingDays": 30,
+        "warnings": [
+          "Valid for duration of study",
+          "Interview required at embassy",
+          "Maintain full-time enrollment"
+        ]
+      }
+    },
+    {
+      "ruleId": "R42",
+      "destinationCountry": "UK",
+      "passportCountry": "INDIA",
+      "travelPurpose": "STUDENT",
+      "stayDuration": {
+        "maxDays": 1095
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "TIER4_STUDENT",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "CAS_LETTER",
+          "FINANCIAL_PROOF",
+          "ACADEMIC_TRANSCRIPTS",
+          "ENGLISH_LANGUAGE_TEST",
+          "TUBERCULOSIS_TEST"
+        ],
+        "processingDays": 21,
+        "warnings": [
+          "Valid for course duration",
+          "Biometric data required",
+          "Healthcare surcharge applies"
+        ]
+      }
+    },
+    {
+      "ruleId": "R43",
+      "destinationCountry": "CANADA",
+      "passportCountry": "INDIA",
+      "travelPurpose": "STUDENT",
+      "stayDuration": {
+        "maxDays": 1460
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "STUDY_PERMIT",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "ACCEPTANCE_LETTER",
+          "FINANCIAL_PROOF",
+          "ACADEMIC_TRANSCRIPTS",
+          "ENGLISH_PROFICIENCY_TEST",
+          "MEDICAL_EXAMINATION"
+        ],
+        "processingDays": 35,
+        "warnings": [
+          "Valid for course duration plus 90 days",
+          "Biometrics required",
+          "May work part-time during study"
+        ]
+      }
+    },
+    {
+      "ruleId": "R44",
+      "destinationCountry": "AUSTRALIA",
+      "passportCountry": "INDIA",
+      "travelPurpose": "STUDENT",
+      "stayDuration": {
+        "maxDays": 1825
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "SUBCLASS_500_STUDENT",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "COE_CERTIFICATE",
+          "FINANCIAL_PROOF",
+          "ACADEMIC_TRANSCRIPTS",
+          "ENGLISH_LANGUAGE_TEST",
+          "HEALTH_INSURANCE",
+          "HEALTH_EXAMINATION"
+        ],
+        "processingDays": 25,
+        "warnings": [
+          "Valid for course duration",
+          "OSHC health insurance mandatory",
+          "Work permitted 40 hours per fortnight"
+        ]
+      }
+    },
+    {
+      "ruleId": "R45",
+      "destinationCountry": "GERMANY",
+      "passportCountry": "INDIA",
+      "travelPurpose": "STUDENT",
+      "stayDuration": {
+        "maxDays": 1095
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "STUDENT_VISA",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "UNIVERSITY_ADMISSION",
+          "BLOCKED_ACCOUNT_PROOF",
+          "ACADEMIC_TRANSCRIPTS",
+          "GERMAN_LANGUAGE_CERTIFICATE",
+          "HEALTH_INSURANCE"
+        ],
+        "processingDays": 45,
+        "warnings": [
+          "Blocked account of €11,208 required",
+          "Language proficiency required",
+          "May work 120 full days per year"
+        ]
+      }
+    },
+    {
+      "ruleId": "R46",
+      "destinationCountry": "FRANCE",
+      "passportCountry": "CHINA",
+      "travelPurpose": "STUDENT",
+      "stayDuration": {
+        "maxDays": 1095
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "STUDENT_VISA",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "CAMPUS_FRANCE_APPROVAL",
+          "UNIVERSITY_ADMISSION",
+          "FINANCIAL_PROOF",
+          "ACCOMMODATION_PROOF",
+          "FRENCH_LANGUAGE_TEST"
+        ],
+        "processingDays": 30,
+        "warnings": [
+          "Campus France interview required",
+          "Valid for course duration",
+          "Work permitted 964 hours per year"
+        ]
+      }
+    },
+    {
+      "ruleId": "R47",
+      "destinationCountry": "IRELAND",
+      "passportCountry": "INDIA",
+      "travelPurpose": "STUDENT",
+      "stayDuration": {
+        "maxDays": 730
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "STUDY_VISA",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "ACCEPTANCE_LETTER",
+          "FINANCIAL_PROOF",
+          "ACADEMIC_TRANSCRIPTS",
+          "ENGLISH_LANGUAGE_TEST"
+        ],
+        "processingDays": 28,
+        "warnings": [
+          "€7,000 minimum funds required",
+          "May work 20 hours per week",
+          "Register with GNIB on arrival"
+        ]
+      }
+    },
+    {
+      "ruleId": "R48",
+      "destinationCountry": "NEW_ZEALAND",
+      "passportCountry": "INDIA",
+      "travelPurpose": "STUDENT",
+      "stayDuration": {
+        "maxDays": 1095
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "STUDENT_VISA",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "FINANCIAL_PROOF",
+          "ACADEMIC_TRANSCRIPTS",
+          "ENGLISH_LANGUAGE_TEST",
+          "MEDICAL_CERTIFICATE"
+        ],
+        "processingDays": 20,
+        "warnings": [
+          "NZ$20,000 per year minimum funds",
+          "May work 20 hours per week",
+          "Police clearance may be required"
+        ]
+      }
+    },
+    {
+      "ruleId": "R49",
+      "destinationCountry": "JAPAN",
+      "passportCountry": "CHINA",
+      "travelPurpose": "STUDENT",
+      "stayDuration": {
+        "maxDays": 730
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "STUDENT_VISA",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "COE_CERTIFICATE",
+          "APPLICATION_FORM",
+          "FINANCIAL_PROOF",
+          "ACADEMIC_TRANSCRIPTS"
+        ],
+        "processingDays": 14,
+        "warnings": [
+          "Certificate of Eligibility required from university",
+          "May work 28 hours per week",
+          "Visa valid for course duration"
+        ]
+      }
+    },
+    {
+      "ruleId": "R50",
+      "destinationCountry": "SINGAPORE",
+      "passportCountry": "INDIA",
+      "travelPurpose": "STUDENT",
+      "stayDuration": {
+        "maxDays": 1095
+      },
+      "decision": {
+        "visaRequired": true,
+        "visaType": "STUDENT_PASS",
+        "requiredDocuments": [
+          "PASSPORT",
+          "PHOTOGRAPH",
+          "IPA_LETTER",
+          "ACCEPTANCE_LETTER",
+          "FINANCIAL_PROOF",
+          "ACADEMIC_TRANSCRIPTS"
+        ],
+        "processingDays": 10,
+        "warnings": [
+          "In-Principle Approval required",
+          "Work restrictions apply",
+          "Must complete registration within 30 days"
+        ]
+      }
+    }
+  ]
+}
